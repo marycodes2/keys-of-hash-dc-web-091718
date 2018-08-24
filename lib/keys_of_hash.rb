@@ -5,7 +5,7 @@ class Hash
     hash_values.each do |value|
       arguments.each do |argument|
         if value == argument
-          hash_values[]
+          
           puts value
         end
       end
