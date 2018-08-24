@@ -8,8 +8,8 @@ class Hash
         end
       end
     end
+    return_values_array
   end
-  return_values_array
 end
 
 animals =  {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"}
