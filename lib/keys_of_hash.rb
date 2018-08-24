@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     self.each do |key, value|
-      arguments.map do |argument|
+      arguments.select do |argument|
         if value == argument
           puts key
         end
