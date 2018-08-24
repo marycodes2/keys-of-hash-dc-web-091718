@@ -7,4 +7,4 @@ class Hash
   end
 end
 
-Panama.keys_of('Panama')
+puts Panama.keys_of('Panama')
