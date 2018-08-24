@@ -4,7 +4,6 @@ class Hash
       arguments.each do |argument|
         if value == argument
           return key
-          
           puts value
         end
       end
