@@ -1,11 +1,11 @@
 class Hash
   def keys_of(*arguments)
     hash_values = self.values
-    hash_values.each do |values|
+    hash_values.each do |value|
       arguments.each do |argument|
-        if values == arguments
-          puts values
-          puts arguments
+        if value == argument
+          puts value
+          puts argument
       end
     end
   end
