@@ -3,7 +3,7 @@ class Hash
     hash_values = self.values
     hash_values.select do |values|
       values == arguments
-      puts values +":"+ arguments
+      puts values, arguments
     end
   end
 end
