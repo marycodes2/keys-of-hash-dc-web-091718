@@ -1,9 +1,9 @@
 class Hash
   def keys_of(*arguments)
     hash_values = self.values
-    hash_values.select do |values|
-      values == arguments
-      if puts values, arguments
+    hash_values.each do |values|
+      if values == arguments
+        puts values
     end
   end
 end
