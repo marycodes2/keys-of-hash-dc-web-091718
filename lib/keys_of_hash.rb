@@ -6,6 +6,7 @@ class Hash
         if value == argument
           puts value
           puts argument
+        end
       end
     end
   end
