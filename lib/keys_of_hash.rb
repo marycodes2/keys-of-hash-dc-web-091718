@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     hash_values = self.values
-    hash_values.select do |values|
+    hash_values.each do |values|
       if values == arguments
         puts values
         puts arguments
