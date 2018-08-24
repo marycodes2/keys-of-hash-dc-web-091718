@@ -6,3 +6,5 @@ class Hash
     end
   end
 end
+
+Panama.keys_of()
