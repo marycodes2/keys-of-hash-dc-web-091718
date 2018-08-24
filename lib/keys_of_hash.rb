@@ -3,7 +3,7 @@ class Hash
     self.each do |key, value|
       arguments.each do |argument|
         if value == argument
-          return key
+          puts key
           puts value
         end
       end
