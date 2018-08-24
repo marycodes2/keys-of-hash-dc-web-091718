@@ -2,7 +2,8 @@ class Hash
   def keys_of(*arguments)
     hash_values = self.values
     hash_values.select do |values|
-      values = arguments
+      values == arguments
+      puts 'ran'
     end
   end
 end
