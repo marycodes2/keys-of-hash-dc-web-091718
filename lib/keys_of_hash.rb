@@ -1,9 +1,10 @@
 class Hash
   def keys_of(*arguments)
+    return_values_array = []
     self.each do |key, value|
       arguments.each do |argument|
         if value == argument
-          puts key
+          
         end
       end
     end
