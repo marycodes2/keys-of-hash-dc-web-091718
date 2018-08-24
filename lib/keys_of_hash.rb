@@ -3,7 +3,8 @@ class Hash
     hash_values = self.values
     hash_values.select do |values|
       values == arguments
-      puts 'ran'
+      puts values
+      puts arguments
     end
   end
 end
