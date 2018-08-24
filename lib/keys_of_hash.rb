@@ -4,6 +4,7 @@ class Hash
     hash_values.each do |values|
       if values == arguments
         puts values
+        puts arguments
       end
     end
   end
@@ -11,4 +12,4 @@ end
 
 animals =  {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"}
 
-puts animals.keys_of("Panama")
+animals.keys_of("Panama")
