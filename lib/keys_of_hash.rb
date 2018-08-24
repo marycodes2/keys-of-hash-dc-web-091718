@@ -7,4 +7,6 @@ class Hash
   end
 end
 
-puts Panama.keys_of('Panama')
+let(:animals) { {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"} }
+
+puts :animals.keys_of('Panama')
